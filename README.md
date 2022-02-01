@@ -1,8 +1,8 @@
 
 # Blog Post API
 ## Summary
-Simple API program that parses and analyzes posts from an publicly available API.
- 
+Simple API program that parses and analyzes posts from an publicly available API. This project was done on my own time for learning purposes. It incorperates REST API techniques, multi-threading and optimized algorithms (done with O(nlogn)).
+
 ## Setup (Windows)
 - This project requires a few features to be installed before it can run.
 - To install all necessary programs, run `setup.bat` in the `../blog_posts` project directory.
