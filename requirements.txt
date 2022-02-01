@@ -1,0 +1,5 @@
+pytest
+requests
+Flask
+flasgger
+requests_cache

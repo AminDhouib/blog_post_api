@@ -1,0 +1,26 @@
+summary: "Get posts"
+description: "Get posts based on tags and sorting method."
+parameters:
+  - name: tags
+    in: query
+    description: A list of tags to query posts.
+    required: true
+    type: array
+    items:
+        type: string
+    example : "science"
+  - name: sortBy
+    in: query
+    description: The field to sort the posts by. The acceptable fields are - id, reads, likes, popularity.
+    required: false
+    type: string
+    example : "id"
+  - name: direction
+    in: query
+    description: The direction for sorting. The acceptable fields are - desc (descending), asc (ascending).
+    required: false
+    type: string
+    
+responses:
+    200:
+        description: Success response

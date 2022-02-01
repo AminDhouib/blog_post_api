@@ -1,0 +1,6 @@
+summary: "Ping"
+description: "Returns a success response if API is alive."
+
+responses:
+    200:
+        description: Success response
